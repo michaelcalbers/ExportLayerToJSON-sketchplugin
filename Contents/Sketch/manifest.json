@@ -1,0 +1,17 @@
+{
+    "name" : "Export Layer To JSON",
+    "identifier" : "michaelcalbers.ExportLayerToJSON",
+    "version" : "0.0.3",
+    "description" : "With a layer selected, export it to JSON.",
+    "authorEmail" : "michael.c.albers@gmail.com",
+    "author" : "Michael C. Albers",
+
+    "commands" : [
+    {
+      "script" : "Export-Layer-To-JSON.js",
+      "handler" : "onRun",
+      "name" : "Export!",
+      "identifier" : "michaelcalbers.plugin.export-layer-to-json"
+    }
+  ],
+}
